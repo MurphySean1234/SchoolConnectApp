@@ -5,7 +5,18 @@ body {
 .SCA-header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin: 0 18px;
+  font-family: Roboto Light;
+  height: 70px;
+  background: hotpink;
+}
+
+.SCA-header-title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 24px;
 }
 
 .SCA-header-menu {
@@ -18,7 +29,7 @@ body {
 
 .SCA-header-menu-list {
   color: #009688;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
 }
 
@@ -35,6 +46,7 @@ a:active, a:visited, a:link {
   text-decoration: none;
   color: #009688;
 }
+
 .footer{
     width: 100%;
     height: 50px;
@@ -47,9 +59,4 @@ a:active, a:visited, a:link {
     padding-top: 25px;
     font-size: 14px;
   }
-  .hometalktous {
-    margin-right: 48px;
-    color: #009688;
-    font-size: 14px;
-    font-weight: bold;
-  }
+}

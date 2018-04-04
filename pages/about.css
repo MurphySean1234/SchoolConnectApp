@@ -1,7 +1,8 @@
-h1, h3, p, li {
-  font-family: Roboto Light;
-  margin-left: 25px;
+
+.SCA-about {
+
 }
+
 .titleschool {
   color: grey;
   text-decoration: bold;
@@ -10,40 +11,6 @@ h1, h3, p, li {
   color: grey;
   font-size: 28px;
 }
-  .SCA-header {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 0px;
-  }
-
-  .SCA-header-menu {
-    width: 412px;
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    margin: 0;
-  }
-
-  .SCA-header-menu-list {
-    color: #009688;
-    font-size: 14px;
-    font-weight: bold;
-  }
-
-  .SCA-header-menu-list:hover, a:hover {
-    color: #32ab9f;
-    cursor: pointer;
-  }
-
-  .SCA-header-menu-list:not(:last-child) {
-    margin-right: 48px;
-  }
-  .hometalktous {
-    margin-right: 48px;
-    color: #009688;
-    font-size: 14px;
-    font-weight: bold;
-  }
 
   a:active, a:visited, a:link {
     text-decoration: none;
@@ -51,8 +18,8 @@ h1, h3, p, li {
   }
   .aboutleft {
       width: 500px;
-      height: 500px;
       overflow: auto;
+      background-color: pink;
   }
   .contact {
       width: 500px;
@@ -61,6 +28,7 @@ h1, h3, p, li {
       position: absolute;
       bottom: -50px;
       left: 25px;
+      background-color: green;
   }
  .massiveparagraph {
       width: 750px;
@@ -68,7 +36,7 @@ h1, h3, p, li {
       overflow:auto;
       text-align: left;
       position: absolute;
-      top: 50px;
+      top: 60px;
       right: 100px;
 
  }
