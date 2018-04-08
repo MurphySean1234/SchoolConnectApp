@@ -1,4 +1,3 @@
-
 .SCA-about {
 
 }
@@ -12,14 +11,9 @@
   font-size: 28px;
 }
 
-  a:active, a:visited, a:link {
-    text-decoration: none;
-    color: #009688;
-  }
   .aboutleft {
       width: 500px;
       overflow: auto;
-      background-color: pink;
   }
   .contact {
       width: 500px;
@@ -38,6 +32,7 @@
       position: absolute;
       top: 60px;
       right: 100px;
+      background-color: light-blue;
 
  }
  .vl {
@@ -58,7 +53,9 @@
    }
    .footer {
        position: fixed;
-       left: 0;
+       justify-content: center;
+       vertical-align: center;
+       left: auto;
        bottom: 0;
        width: 100%;
        height: 25px;
